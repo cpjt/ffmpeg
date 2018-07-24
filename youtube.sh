@@ -3,7 +3,7 @@ FPS="20"
 QUAL="ultrafest"                              
 YOUTUBE_URL="rtmp://104.196.20.47:1935/live"
 
-SOURCE="tom.txt"           
+SOURCE="http://www.blogger.com/video-play.mp4?contentId=639b98419fa75c5a"           
 KEY="tom"                               
 
 ffmpeg \
