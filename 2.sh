@@ -1,0 +1,30 @@
+ffmpeg \
+    -re -stream_loop -1 -fflags +genpts -i http://www.blogger.com/video-play.mp4?contentId=0ef98fa1aeae08b7 \
+    -re -stream_loop -1 -fflags +genpts -i http://www.blogger.com/video-play.mp4?contentId=0ef98fa1aeae08b7 \
+    -re -stream_loop -1 -fflags +genpts -i http://www.blogger.com/video-play.mp4?contentId=0ef98fa1aeae08b7 \
+    -re -stream_loop -1 -fflags +genpts -i http://www.blogger.com/video-play.mp4?contentId=0ef98fa1aeae08b7 \
+    -map 0:v -map 0:a \
+        -c:a speex -ar 16000 -ac 1 \
+        -c:v libx264 -preset ultrafast \
+        -b:v 200k -b:a 32k \
+        -f flv rtmp://104.196.20.47:1935/live/c_101 \
+    -map 1:v -map 1:a \
+        -c:a speex -ar 16000 -ac 1 \
+        -c:v libx264 -preset ultrafast \
+        -b:v 200k -b:a 32k \
+        -f flv rtmp://104.196.20.47:1935/live/c_102 \
+    -map 2:v -map 2:a \
+        -c:a speex -ar 16000 -ac 1 \
+        -c:v libx264 -preset ultrafast \
+        -b:v 200k -b:a 32k \
+        -f flv rtmp://104.196.20.47:1935/live/c_103 \
+    -map 3:v -map 3:a \
+        -c:a speex -ar 16000 -ac 1 \
+        -c:v libx264 -preset ultrafast \
+        -b:v 200k -b:a 32k \
+        -f flv rtmp://104.196.20.47:1935/live/c_104 \
+    -map 4:v -map 4:a \
+        -c:a speex -ar 16000 -ac 1 \
+        -c:v libx264 -preset ultrafast \
+        -b:v 200k -b:a 32k \
+        -f flv rtmp://104.196.20.47:1935/live/c_105 \
