@@ -1,14 +1,14 @@
 ffmpeg \
-    -re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
-    -re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
-    -re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
-    -re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
-	-re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
-	-re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
-	-re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
-	-re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
-	-re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
-	-re -stream_loop -1 -fflags +genpts -i http://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov/playlist.m3u8 \
+    -re -stream_loop -1 -fflags +genpts -i simpsons.txt \
+    -re -stream_loop -1 -fflags +genpts -i simpsons.txt \
+    -re -stream_loop -1 -fflags +genpts -i simpsons.txt \
+    -re -stream_loop -1 -fflags +genpts -i simpsons.txt \
+	-re -stream_loop -1 -fflags +genpts -i simpsons.txt \
+	-re -stream_loop -1 -fflags +genpts -i simpsons.txt \
+	-re -stream_loop -1 -fflags +genpts -i simpsons.txt \
+	-re -stream_loop -1 -fflags +genpts -i simpsons.txt \
+	-re -stream_loop -1 -fflags +genpts -i simpsons.txt \
+	-re -stream_loop -1 -fflags +genpts -i simpsons.txt \
     -map 0:v -map 0:a \
         -c:a speex -ar 16000 -ac 1 \
         -c:v libx264 -preset ultrafast \
