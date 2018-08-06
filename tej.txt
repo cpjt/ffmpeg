@@ -16,4 +16,3 @@ file 'http://www.blogger.com/video-play.mp4?contentId=cef978e9269c6d1b'
 file 'http://www.blogger.com/video-play.mp4?contentId=3d0b22df05b85927'
 file 'http://www.blogger.com/video-play.mp4?contentId=30bf3d816027de9'
 file 'http://www.blogger.com/video-play.mp4?contentId=22e1ac38d997b912'
-[...]
